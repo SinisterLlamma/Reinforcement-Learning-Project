@@ -129,6 +129,10 @@ class SequentialMemory(Memory):
         self.rewards = RingBuffer(limit)
         self.terminals = RingBuffer(limit)
         self.observations = RingBuffer(limit)
+        # Optional parallel buffer for the joint-summary vector at the
+        # time the observation was emitted. Only populated when the user
+        # calls append(..., summary=...). Original behavior unchanged.
+        self.summaries = RingBuffer(limit)
 
     def sample(self, batch_size, batch_idxs=None):
         if batch_idxs is None:
@@ -207,7 +211,7 @@ class SequentialMemory(Memory):
 
         return state0_batch, action_batch, reward_batch, state1_batch, terminal1_batch
 
-    def append(self, observation, action, reward, terminal, training=True):
+    def append(self, observation, action, reward, terminal, training=True, summary=None):
         super(SequentialMemory, self).append(observation, action, reward, terminal, training=training)
 
         # This needs to be understood as follows: in `observation`, take `action`, obtain `reward`
@@ -217,6 +221,85 @@ class SequentialMemory(Memory):
             self.actions.append(action)
             self.rewards.append(reward)
             self.terminals.append(terminal)
+            # `summary` is the joint state-distribution vector at the same
+            # timestep as `observation`. We store None when the caller did
+            # not provide one so the original code path is unaffected.
+            self.summaries.append(summary)
+
+    def sample_full(self, batch_size, batch_idxs=None):
+        """Sample transitions and also return the joint-summary vector
+        stored at state0's timestep and at state1's timestep.
+        Mirrors `sample` exactly but also pulls from self.summaries.
+        """
+        if batch_idxs is None:
+            batch_idxs = sample_batch_indexes(0, self.nb_entries - 1, size=batch_size)
+        batch_idxs = np.array(batch_idxs) + 1
+        assert np.min(batch_idxs) >= 1
+        assert np.max(batch_idxs) < self.nb_entries
+        assert len(batch_idxs) == batch_size
+
+        experiences = []
+        summaries0 = []
+        summaries1 = []
+        for idx in batch_idxs:
+            terminal0 = self.terminals[idx - 2] if idx >= 2 else False
+            while terminal0:
+                idx = sample_batch_indexes(1, self.nb_entries, size=1)[0]
+                terminal0 = self.terminals[idx - 2] if idx >= 2 else False
+            assert 1 <= idx < self.nb_entries
+
+            state0 = [self.observations[idx - 1]]
+            for offset in range(0, self.window_length - 1):
+                current_idx = idx - 2 - offset
+                current_terminal = self.terminals[current_idx - 1] if current_idx - 1 > 0 else False
+                if current_idx < 0 or (not self.ignore_episode_boundaries and current_terminal):
+                    break
+                state0.insert(0, self.observations[current_idx])
+            while len(state0) < self.window_length:
+                state0.insert(0, zeroed_observation(state0[0]))
+            action = self.actions[idx - 1]
+            reward = self.rewards[idx - 1]
+            terminal1 = self.terminals[idx - 1]
+
+            state1 = [np.copy(x) for x in state0[1:]]
+            state1.append(self.observations[idx])
+
+            assert len(state0) == self.window_length
+            assert len(state1) == len(state0)
+            experiences.append(Experience(state0=state0, action=action, reward=reward,
+                                          state1=state1, terminal1=terminal1))
+            summaries0.append(self.summaries[idx - 1])
+            summaries1.append(self.summaries[idx])
+        assert len(experiences) == batch_size
+        return experiences, summaries0, summaries1
+
+    def sample_and_split_full(self, batch_size, batch_idxs=None):
+        """Like sample_and_split but also returns summary0 and summary1
+        batches as np arrays of shape (batch_size, summary_dim)."""
+        experiences, summaries0, summaries1 = self.sample_full(batch_size, batch_idxs)
+
+        state0_batch = []
+        reward_batch = []
+        action_batch = []
+        terminal1_batch = []
+        state1_batch = []
+        for e in experiences:
+            state0_batch.append(e.state0)
+            state1_batch.append(e.state1)
+            reward_batch.append(e.reward)
+            action_batch.append(e.action)
+            terminal1_batch.append(0. if e.terminal1 else 1.)
+
+        state0_batch = np.array(state0_batch).reshape(batch_size, -1)
+        state1_batch = np.array(state1_batch).reshape(batch_size, -1)
+        terminal1_batch = np.array(terminal1_batch).reshape(batch_size, -1)
+        reward_batch = np.array(reward_batch).reshape(batch_size, -1)
+        action_batch = np.array(action_batch).reshape(batch_size, -1)
+        summary0_batch = np.array(summaries0, dtype=np.float32)
+        summary1_batch = np.array(summaries1, dtype=np.float32)
+
+        return (state0_batch, action_batch, reward_batch, state1_batch,
+                terminal1_batch, summary0_batch, summary1_batch)
 
     @property
     def nb_entries(self):

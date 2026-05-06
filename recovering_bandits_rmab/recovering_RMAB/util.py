@@ -1,7 +1,38 @@
 
 import os
+import numpy as np
 import torch
 from torch.autograd import Variable
+
+
+def compute_joint_summary(states, state_space_size, state_to_index=None):
+    """Empirical state distribution across arms at one timestep.
+
+    Args:
+        states: iterable of length N. Each element is the per-arm state
+            as produced by env.step / env.reset (typically a length-1
+            ndarray or list containing an integer state).
+        state_space_size: size of the discrete state space (= length of
+            the returned vector).
+        state_to_index: optional callable mapping a per-arm state to an
+            integer in [0, state_space_size). Default: int(s[0]) which
+            works for envs whose state is a 1-element container of an
+            integer in [0, state_space_size).
+
+    Returns:
+        np.ndarray of shape (state_space_size,) with float entries
+        summing to 1: entry k is the fraction of arms with state index k.
+    """
+    if state_to_index is None:
+        def state_to_index(s):
+            return int(s[0])
+    n = len(states)
+    summary = np.zeros(state_space_size, dtype=np.float32)
+    for s in states:
+        idx = state_to_index(s)
+        summary[idx] += 1.0
+    summary /= n
+    return summary
 
 USE_CUDA = torch.cuda.is_available()
 FLOAT = torch.cuda.FloatTensor if USE_CUDA else torch.FloatTensor

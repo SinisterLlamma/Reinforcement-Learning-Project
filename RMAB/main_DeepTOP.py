@@ -65,6 +65,15 @@ if __name__ == '__main__':
     parser.add_argument('--resume', default='default', type=str, help='Resuming model path for testing')
     parser.add_argument('--nb_arms', default=0, type=int, help='Number of arms')
     parser.add_argument('--budget', default=0, type=int, help='Budget')
+    # Joint-Summary-Augmented DeepTOP (C1) extension
+    parser.add_argument('--joint-summary', dest='joint_summary', action='store_true',
+                        help='Use Joint-Summary-Augmented DeepTOP: actor takes (s_i, joint summary)')
+    parser.add_argument('--summary_dim', default=100, type=int,
+                        help='Length of the joint-summary vector (= state-space size). 100 for lineEnv.')
+    parser.add_argument('--max_steps', default=260001, type=int,
+                        help='Total training steps (default matches the original paper).')
+    parser.add_argument('--reward_log', default=None, type=str,
+                        help='Optional path to write per-100-step average rewards as CSV.')
 
 
     args = parser.parse_args()
@@ -90,26 +99,31 @@ if __name__ == '__main__':
     initializeEnv()
     #initialize agent
     hidden = [128, 128]
+    # lineEnv state is a length-1 container of an integer in [0, 99] -> default mapping suffices
     agent = DeepTOP_RMAB(nb_arms, budget, state_dims, action_dims, state_sizes, action_sizes, hidden, args)
-    
+    if args.joint_summary:
+        total = sum(p.numel() for p in agent.actors[0].parameters())
+        print(f'[C1] joint-summary actor parameter count (per arm): {total}')
+
     resetEnvs()
     agent.reset(states)
 
     cumulative_reward = 0
+    reward_log_rows = []  # list of (global_step, avg_reward_over_last_100)
 
     t = time.localtime()
     current_time = time.strftime("%H:%M:%S", t)
-    
+
     iteration = 0
     num_step = 0
 
-    for t in range(260001):
+    for t in range(args.max_steps):
         if t % 13000 == 0:
             iteration = iteration + 1
             num_step = 0
             print(f'iteration {iteration}')
             agent = DeepTOP_RMAB(nb_arms, budget, state_dims, action_dims, state_sizes, action_sizes, hidden, args)
-            
+
             resetEnvs()
             agent.reset(states)
 
@@ -143,8 +157,16 @@ if __name__ == '__main__':
             cumulative_reward = cumulative_reward + sum(reward)
             agent.update_policy()
             if( (num_step-args.warmup)%100 == 0 ):
-                print(f'{cumulative_reward/100}')
+                avg = cumulative_reward/100
+                print(f'{avg}')
+                reward_log_rows.append((t, float(avg)))
                 cumulative_reward = 0
         states = deepcopy(next_state)
+
+    if args.reward_log is not None:
+        with open(args.reward_log, 'w') as f:
+            f.write('global_step,avg_reward\n')
+            for step, avg in reward_log_rows:
+                f.write(f'{step},{avg}\n')
 
 

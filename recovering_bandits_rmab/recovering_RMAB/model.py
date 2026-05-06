@@ -16,12 +16,24 @@ def fanin_init(size, fanin=None):
 
 
 class Actor(nn.Module):
-    def __init__(self, nb_inputs, nb_outputs, hidden, init_w=5e-1):
+    def __init__(self, nb_inputs, nb_outputs, hidden, init_w=5e-1,
+                 use_joint_summary=False, summary_dim=0):
+        """Actor network.
+
+        If use_joint_summary is True, the input layer width is
+        (nb_inputs + summary_dim) and forward(x, summary) concatenates
+        the joint-summary vector to x before the first hidden layer.
+        Architecture (hidden sizes, activations, output dim) is otherwise
+        identical to the original DeepTOP actor.
+        """
         super(Actor, self).__init__()
+        self.use_joint_summary = use_joint_summary
+        self.summary_dim = summary_dim
+        first_in = nb_inputs + summary_dim if use_joint_summary else nb_inputs
         self.fc = nn.ModuleList()
         for layer in range(len(hidden)+1):
             if layer == 0:
-                self.fc.append(nn.Linear(nb_inputs, hidden[0]))
+                self.fc.append(nn.Linear(first_in, hidden[0]))
             elif layer == len(hidden):
                 self.fc.append(nn.Linear(hidden[layer-1], nb_outputs))
             else:
@@ -36,8 +48,13 @@ class Actor(nn.Module):
             else:
                 self.fc[layer].weight.data = fanin_init(self.fc[layer].weight.data.size())
 
-    def forward(self, x):
-        out = x
+    def forward(self, x, summary=None):
+        if self.use_joint_summary:
+            if summary is None:
+                raise ValueError("Actor was built with use_joint_summary=True but forward() got summary=None")
+            out = torch.cat([x, summary], -1)
+        else:
+            out = x
         for layer in range(len(self.fc)):
             out = self.fc[layer](out)
             if layer < len(self.fc)-1:
