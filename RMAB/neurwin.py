@@ -101,7 +101,7 @@ class NeurWIN(object):
             self.weight_grads[layer][self.batchCounter-1] = self.actor.fc[layer].weight.grad.clone()
             self.bias_grads[layer][self.batchCounter-1] = self.actor.fc[layer].bias.grad.clone()
 
-        self.optimizer.zero_grad()
+        self.optimizer.zero_grad(set_to_none=False)
         
     def _performBatchStep(self):
         '''Function for performing the gradient ascent step on accumelated mini-batch gradients.'''
@@ -119,7 +119,7 @@ class NeurWIN(object):
             
 
         self.optimizer.step()
-        self.optimizer.zero_grad()
+        self.optimizer.zero_grad(set_to_none=False)
 
         self.weight_grads = np.zeros((self.num_layers, self.batchSize)).tolist()
         self.bias_grads = np.zeros((self.num_layers, self.batchSize)).tolist()

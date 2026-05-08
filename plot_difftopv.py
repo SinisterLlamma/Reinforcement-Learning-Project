@@ -26,13 +26,19 @@ ENVS = ['line', 'recovering']
 CONFIGS = [(10, 3), (20, 5), (30, 6)]
 
 # Modes plotted side by side. Drop one if its CSVs aren't on disk.
-MODES = ['base', 'aug', 'difftopv']
+MODES = ['base', 'aug', 'difftopv', 'deeptopj', 'deeptopjreg', 'neurwin']
 MODE_LABELS = {
     'base': 'DeepTOP (baseline)',
     'aug': 'C1: Joint-Summary-Augmented',
     'difftopv': 'DiffTopV (ours)',
+    'deeptopj': 'DeepTOP-J (joint actor)',
+    'deeptopjreg': 'DeepTOP-J + decoupling reg.',
+    'neurwin': 'NeurWIN',
 }
-MODE_COLORS = {'base': 'C0', 'aug': 'C1', 'difftopv': 'C2'}
+MODE_COLORS = {'base': 'C0', 'aug': 'C1', 'difftopv': 'C2',
+               'deeptopj': 'C3', 'deeptopjreg': 'C4', 'neurwin': 'C5'}
+MODE_MARKERS = {'base': None, 'aug': None, 'difftopv': None,
+                'deeptopj': '^', 'deeptopjreg': 's', 'neurwin': None}
 
 
 def load_curve(path):
@@ -71,8 +77,12 @@ def main():
                 vals = np.stack([c[1][:min_len] for c in curves])
                 steps = curves[0][0][:min_len]
                 mean, std = vals.mean(0), vals.std(0)
+                marker = MODE_MARKERS.get(mode)
+                # Sparse markers so curves stay readable
+                markevery = max(1, len(steps) // 12) if marker else None
                 ax.plot(steps, mean, color=MODE_COLORS[mode],
-                        label=MODE_LABELS[mode], linewidth=1.5)
+                        label=MODE_LABELS[mode], linewidth=1.5,
+                        marker=marker, markersize=5, markevery=markevery)
                 ax.fill_between(steps, mean - std, mean + std,
                                 color=MODE_COLORS[mode], alpha=0.18)
 
