@@ -57,6 +57,43 @@ python3 benchmark_joint_summary.py
 Output (CSV reward curves and a comparison plot) is written to
 `benchmark_out/`.
 
+## Continuous & Multi-Agent RMAB Extensions
+---
+
+The repository supports additional continuous RMAB algorithms and modern architectures inside the `RMAB/` and `recovering_bandits_rmab/` directories:
+
+### Files & Architectures
+- **`DeepTOPJ.py` & `main_DeepTOPJ.py`**: A Set-Transformer Joint-Actor extension. It replaces independent per-arm actors with a single permutation-equivariant Set Transformer that processes the joint state, outputting per-arm activation thresholds while capturing cross-arm correlations.
+- **`DiffTopV.py` & `main_DiffTopV.py`**: A Differentiable sorting/Top-k formulation that smoothly handles budget constraints, mapping predictions via a continuous relaxation of the top-k operation.
+- **`neurwin_train.py` & `main_neurwin_paper.py`**: An implementation of the NeurWIN baseline.
+
+### How to Run
+
+To run these models, use their respective `main_*.py` files. They share similarities in hyperparameters (`--nb_arms`, `--budget`, `--seed`, `--max_steps`).
+
+**DeepTOP-J (Joint Set-Transformer)**:
+Supports optional gating (`--actor_gated`) and advantage normalization (`--adv_normalize`) to stabilize training.
+```sh
+cd RMAB
+# Standard DeepTOP-J
+python3 -u main_DeepTOPJ.py --nb_arms 10 --budget 3 --max_steps 12000
+
+# Regularized DeepTOP-J with Gated Attention & Adv. Normalization
+python3 -u main_DeepTOPJ.py --nb_arms 10 --budget 3 --actor_gated --adv_normalize
+```
+
+**DiffTopV**:
+```sh
+cd RMAB
+python3 -u main_DiffTopV.py --nb_arms 10 --budget 3 --max_steps 12000
+```
+
+**NeurWIN**:
+```sh
+cd RMAB
+python3 -u main_neurwin_paper.py --nb_arms 10 --budget 3 --max_steps 12000
+```
+
 ## Acknowledgment
 ---
 
