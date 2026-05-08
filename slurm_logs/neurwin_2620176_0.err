@@ -1,0 +1,11 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Traceback (most recent call last):
+  File "/home2/eshaan.sharma/Reinforcement-Learning-Project/RMAB/neurwin_train.py", line 99, in <module>
+    agents[x].learn()
+  File "/home2/eshaan.sharma/Reinforcement-Learning-Project/RMAB/neurwin.py", line 179, in learn
+    self._performBatchStep()
+  File "/home2/eshaan.sharma/Reinforcement-Learning-Project/RMAB/neurwin.py", line 117, in _performBatchStep
+    self.actor.fc[layer].weight.grad += self.discountRewards[x]*self.weight_grads[layer][x]
+TypeError: unsupported operand type(s) for +=: 'NoneType' and 'Tensor'

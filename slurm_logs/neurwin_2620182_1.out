@@ -1,0 +1,3973 @@
+==========================================
+SLURM_JOB_ID = 2620182
+SLURM_NODELIST = gnode090
+SLURM_JOB_GPUS = 
+==========================================
+Host:    gnode090
+Job:     2620182 (array task 1)
+Env:     recovering
+Steps:   12000 (warmup 1000)
+========================================
+[config] N=10 V=3
+[config] pretrain dir: /home2/eshaan.sharma/Reinforcement-Learning-Project/recovering_bandits_rmab/recovering_RMAB/neurwin_training_results/arms_10_activate_3
+[pretrain] training 10 arms (seed 87452) ...
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+[pretrain] done.
+[seed 1] -> /home2/eshaan.sharma/Reinforcement-Learning-Project/paper_out/recovering_N10_V3_neurwin_seed1.csv
+iteration 1
+10.25456687759033
+10.30908211729002
+9.874183966465917
+9.787445026457398
+9.73879776408005
+9.989369738369737
+10.20657467987731
+9.577943669262137
+9.722240617843587
+9.60816148485131
+9.888184418959193
+9.782127681568557
+9.710293839042357
+9.521068887726868
+9.705318033082131
+10.214986250698919
+10.319785635030357
+9.820354752330585
+10.239353654100809
+9.839982785867
+9.436677684313453
+9.894849384946287
+9.645928298437203
+9.92535300359462
+10.110366415575372
+10.660491121056323
+10.03347808170535
+9.73302107142743
+9.983187403404763
+9.902143977903785
+9.936471017690188
+10.275318298798894
+9.716415019599413
+9.93157360506114
+10.201073776005563
+9.935612410996715
+9.891285036874086
+9.663439306869067
+9.978473509519706
+9.89589780059449
+10.023715231482997
+10.003767591427422
+9.687041319502175
+10.07960925825419
+10.293394700361203
+9.94551140880816
+9.641276777136113
+10.02270849333299
+9.933018454103589
+9.832910569627487
+9.997590782399103
+9.940529920789494
+9.885924259279351
+9.940305995900644
+9.746552289838018
+9.926335497030013
+10.16640520618501
+9.875063102576375
+9.988375669251269
+9.662286087725994
+9.942740271568281
+9.728792720547219
+9.915306005489345
+10.011631717664194
+10.09454213520154
+9.85578701738856
+10.148444681748758
+10.455172433118976
+10.203034299697231
+10.01174967720145
+10.135512033039284
+10.149327722955974
+10.05365634477847
+10.010263640353804
+10.00961873747138
+10.038209340155836
+9.960253866028477
+10.474751765977274
+10.287623489171072
+10.041533442737794
+10.315495624576124
+10.377292007975392
+10.540190824297445
+10.293932851152638
+10.108429833917281
+10.02041619226331
+10.10612535349341
+9.963510888241112
+10.007753648449674
+9.826689439821642
+10.12498897808411
+10.514652993806553
+10.362976740138352
+9.850318525227028
+10.020885338363025
+10.682404823433837
+10.147712626416986
+10.22669282658313
+9.901074076771957
+10.869464879685614
+10.078707668265169
+10.661909090321508
+10.512851370711944
+10.38364827893135
+9.971772927703526
+10.463952635192001
+10.08960458516471
+10.42874785522294
+10.401017816139356
+10.069362460247689
+[seed 2] -> /home2/eshaan.sharma/Reinforcement-Learning-Project/paper_out/recovering_N10_V3_neurwin_seed2.csv
+iteration 1
+9.564527060908736
+10.308224482378549
+9.702905949261371
+9.779372232187239
+9.344540334162295
+9.653711134689745
+9.468263000019691
+9.842071840022399
+9.83523356307089
+9.771252729328985
+9.749447905613026
+9.70862733196389
+10.097530979941297
+9.77219062574863
+9.704902618779006
+9.882787488211761
+9.92991619333043
+10.22263299725936
+10.020415320478282
+9.813673056728364
+9.723337413884249
+9.694264115107684
+9.788165051691841
+9.83449545293018
+9.758652797483307
+9.569615457661653
+10.30382910126386
+9.734993226158743
+9.817570694592444
+10.048901516071052
+9.569548800728171
+9.934408733384217
+9.998845193581817
+9.967198254842359
+10.313077716939828
+9.860440162500616
+9.530661853592099
+10.127456753384896
+10.032235468362117
+9.682907558690752
+10.441360243598147
+9.798537262259382
+9.922437223629984
+10.287090791697159
+10.371004369577925
+10.234835622850923
+9.723222731689182
+9.7209542358819
+10.02759266424721
+10.088934026105134
+10.11685220270399
+10.328540925072804
+10.16869299780446
+9.828582642957356
+9.802608200351756
+10.266028989844465
+9.930345966264563
+10.09351626855902
+10.016352724018452
+10.141043957693679
+9.967812107779343
+10.066683346140469
+10.419465406887738
+10.251766408755836
+9.762969090017531
+10.024919448815119
+9.979600001061216
+10.346730468848055
+9.683137606495254
+10.05424692665129
+10.037904579930744
+9.860098433915587
+9.836345614412346
+9.815974033279478
+10.26405697457477
+10.076054719507319
+9.98295847078618
+9.856264426057711
+10.242424539515273
+10.171518366496334
+10.023800441388934
+9.999962255106881
+9.783876275719997
+9.580764825391496
+10.31735065743414
+10.376589322108394
+9.953785946089312
+9.95439166695847
+10.155104634359372
+10.569376658086322
+10.400526709838061
+9.69359604012748
+10.29221152358841
+10.063866515189428
+10.238858461307869
+9.903109899011508
+10.360389249748405
+10.262467732114432
+9.912583846715364
+10.705134125642576
+10.073445277048474
+10.157059961957549
+10.777314450321422
+10.219913835227334
+10.098266842248716
+9.939022061854113
+10.318222653396736
+10.152243435187803
+10.023699683468317
+10.17287817499856
+[seed 3] -> /home2/eshaan.sharma/Reinforcement-Learning-Project/paper_out/recovering_N10_V3_neurwin_seed3.csv
+iteration 1
+9.961922643782623
+9.853976991914323
+9.568287867328712
+9.852741903385168
+9.542271422470249
+9.92971296608788
+9.907866906507051
+9.749318857420654
+10.069975752696399
+9.949882873917836
+9.759276587267593
+9.632341188791246
+9.397300470243616
+10.183291029574908
+10.012533519145776
+9.602129860312125
+9.685456387840562
+10.000307815122213
+9.633653266322431
+9.856409090550999
+9.73566412978934
+9.660329043758532
+9.858472989748993
+9.677284274869734
+10.025817710682556
+9.812826325408524
+9.806326368546083
+9.776685238616672
+9.407868479408608
+10.450834863369575
+10.014484795347103
+10.15229961509424
+10.03658297380902
+9.620463876396926
+10.234168267895718
+9.93378234487704
+10.097144187012407
+10.106857725786485
+9.814341460490992
+10.153089019751729
+9.895512459530707
+10.165392876295218
+10.216221796818386
+10.058493277828111
+9.670296112537493
+9.781637147225746
+9.829830155874347
+9.885742018717323
+9.856227411125973
+9.637007165797748
+10.192662289672109
+10.072320821654365
+9.9383430664387
+9.824831819116499
+9.793921691472859
+10.535462447426596
+9.78703822625549
+10.23501616607233
+9.42054462503578
+9.80301802755511
+9.99901335986722
+9.786843951361435
+10.130642586055687
+9.82202051475837
+10.464601345928136
+10.059648387426531
+10.195315528469493
+9.959892864400715
+10.46573356096713
+9.964023428260056
+10.11889913599528
+9.718049597451945
+10.37311629197946
+10.098413069601074
+9.793629206081013
+10.262263870845864
+9.767109740112023
+10.087840444644549
+10.025871176894443
+10.655141960602757
+10.061808726775162
+9.613924933099824
+10.021505186787547
+9.866714818674456
+10.025061097687834
+10.438462527646742
+9.70831501465552
+9.702401718646934
+9.89711827447758
+10.132620494328862
+9.786206701754654
+10.332443538662917
+10.128045363663778
+10.545209971492827
+10.211748064025011
+10.370837074991211
+10.16530831129784
+10.816392432118919
+9.99635306338825
+10.447263969075323
+10.73774186050323
+9.85802497152149
+10.180559071442962
+10.765271334829917
+10.08526787146086
+9.765014266198486
+10.072280524874273
+10.502261564108558
+10.311978184846128
+10.440705353990165
+========================================
+[config] N=20 V=5
+[config] pretrain dir: /home2/eshaan.sharma/Reinforcement-Learning-Project/recovering_bandits_rmab/recovering_RMAB/neurwin_training_results/arms_20_activate_5
+[pretrain] training 20 arms (seed 87452) ...
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+[pretrain] done.
+[seed 1] -> /home2/eshaan.sharma/Reinforcement-Learning-Project/paper_out/recovering_N20_V5_neurwin_seed1.csv
+iteration 1
+16.663600767137805
+15.779384305866413
+15.786903483417339
+15.494595251527024
+15.49464993942715
+15.422880557536564
+15.580276230521413
+15.08459440854759
+15.233940660975495
+15.260838099546595
+15.665731901201271
+15.570307733894492
+15.59186461185421
+15.533140005332823
+15.214833404540247
+15.956067473478322
+16.244774124577035
+15.536895765561766
+16.161827706076277
+15.271873293872211
+14.9165737429392
+15.578641505572305
+15.146513954866544
+15.849822648565327
+15.865383418767413
+17.1461165395806
+15.802774000201891
+15.305438035895286
+16.001084055996284
+16.587645641123437
+15.839622154963585
+16.123882583592454
+15.28783195451951
+15.349851497962261
+15.65385991340835
+15.869546236926483
+15.605731720203941
+14.918325709412404
+15.809602670261453
+15.37378815168514
+15.35846889042575
+15.362363759154455
+15.284483667459986
+15.72226860174662
+16.21170383972933
+15.654157432775964
+15.085077283711179
+15.44092986448986
+15.450078405035429
+15.007504828098943
+15.714316155896254
+15.508916196638342
+15.604272692678142
+15.474549394214476
+15.13635730300659
+15.574566314738329
+15.603988134692608
+15.315989935237303
+15.487051080189431
+15.100098533467897
+15.443718427089705
+15.332005038596945
+15.647976758780406
+15.69168316456071
+15.459026499988761
+15.565701029225288
+15.940704396436882
+16.392941995640527
+15.814765182962343
+15.492019469836611
+16.03144643800927
+15.81239454600886
+15.715330454268008
+15.60149722263137
+15.948694957016235
+15.38158005251722
+16.015041531634207
+16.325261287756238
+15.774607390101266
+16.089173991578193
+15.899251906593811
+16.12039165332983
+16.839022339829224
+16.577777916444216
+15.892657399062783
+15.848594356409087
+15.501639239292182
+15.302096430728106
+15.384366482976084
+15.423216326964459
+15.418481282122865
+16.502868010271232
+15.994909972251083
+15.714114087265175
+15.478385578614514
+17.32456508369033
+15.720431540209743
+15.651669001982714
+15.45851534716503
+17.528584235741008
+15.875457943721349
+16.945918321128946
+16.111004031083848
+16.05441368810731
+15.542903002126177
+16.38435828722424
+15.742283750230838
+16.20334345572568
+16.03176555473311
+15.468936617578386
+[seed 2] -> /home2/eshaan.sharma/Reinforcement-Learning-Project/paper_out/recovering_N20_V5_neurwin_seed2.csv
+iteration 1
+15.023824269109864
+16.757373237083076
+15.246535994459855
+15.653684022231992
+15.028195990467328
+16.133992046477086
+15.604018420394107
+16.248367507263243
+15.507451105149595
+15.80962165809298
+15.74902184110561
+15.582271827995546
+15.804861632542462
+15.752614250294599
+16.057601591900006
+16.001862979230367
+15.478025433406108
+16.105616650880123
+15.547200040394186
+15.046915606387927
+15.349151023900301
+15.3601911483833
+15.585037137194833
+15.629382825666124
+15.231425926574152
+15.145369925588968
+15.753931002411834
+15.256862631861686
+15.756785269839117
+15.476096798073888
+14.8140632082223
+15.542714705752074
+15.705679250362518
+15.462184296101581
+16.22405005371192
+15.143926430503035
+15.090301348680011
+16.045916593295612
+15.60601819949761
+14.931241650055425
+15.957855053623264
+15.036503544382334
+16.209551803998124
+16.050316937541517
+16.137746527239027
+15.941354420352347
+15.06405888538255
+15.353677723192828
+15.793478062501658
+15.87462127005129
+16.15885022929479
+16.207232176473347
+15.543327558578731
+15.33617544006657
+15.069948708536401
+16.643263900807828
+15.532944498810645
+15.639165937183527
+15.391023329662904
+15.897335858134083
+15.788122542665256
+16.127242675289562
+15.996446301319576
+16.027040607303174
+15.123018816977662
+15.413956507242478
+15.678609973409722
+16.014245524551384
+15.321597185059815
+15.751318287147583
+15.89566868485752
+15.43283391670374
+15.542551390227407
+15.330173387121484
+15.83600290004388
+15.54573523154995
+15.679920278983037
+15.461097535411604
+16.175969386599487
+16.034780807454364
+15.809980206746125
+16.111153563442173
+15.294839087838135
+14.827688017930738
+16.109831187649885
+16.096313453703825
+15.695444228165591
+15.765702192379603
+15.771662639980432
+17.462764051653664
+16.360506142525267
+14.945429829192037
+15.971682133293458
+15.67965926738858
+15.74861960147
+15.666441717051322
+16.349498430926438
+16.014053900891284
+16.000775552053877
+16.54231290018577
+15.442979345161099
+15.626932036900834
+16.398095570509355
+15.561893324531397
+15.659875254811789
+15.485083234679783
+16.205014560383148
+15.939974084989938
+15.625100717928836
+15.807415087211568
+[seed 3] -> /home2/eshaan.sharma/Reinforcement-Learning-Project/paper_out/recovering_N20_V5_neurwin_seed3.csv
+iteration 1
+15.676259627040622
+16.05169480873244
+16.055393835833836
+15.978760894427115
+15.12226064474529
+15.20232236850404
+16.358715206328824
+15.100532168490492
+15.619307739802563
+15.277001908878963
+15.154558897133688
+15.04140587782137
+15.099954268992953
+16.138699706005042
+15.845477333310468
+15.327786002849841
+15.21505634560409
+16.253946848788363
+15.799626906023207
+15.599295976015958
+15.521190384337217
+15.421877007926252
+15.499896488017546
+14.95394882177617
+15.659509247386131
+15.221433121494867
+15.145003796495098
+15.339475290927556
+14.774679251664892
+16.048857888707307
+15.71343384087289
+15.263102748167602
+16.70505121359491
+15.497414454537926
+15.825613099976984
+15.654509523259053
+16.056077950725832
+15.782343180188652
+15.277100834343432
+16.033384956265593
+15.204976360145215
+15.583428638771899
+15.904792536765092
+15.841025637503876
+15.898550288052565
+15.858758018626807
+15.274310724899511
+15.415215970341524
+15.450039089645689
+15.002022014617275
+15.398936383703482
+15.618845561989874
+15.215374949294961
+15.177734606154305
+15.447233190033028
+16.747472614125094
+15.656683509457242
+15.930419175834738
+14.71944804600039
+15.275320212577535
+15.506187166357288
+15.694447739120996
+15.799429499428586
+15.63806450807469
+16.018939497555913
+15.533435546715054
+16.53748866754669
+15.384523425808256
+15.995483751664546
+15.777960902180112
+15.652751773205772
+15.32348338810063
+16.537426336641406
+15.781277863430118
+15.236817263327387
+15.974413555386976
+15.04455194155994
+15.527466935817989
+15.494440440818575
+16.44059606783815
+16.21104649622278
+14.978016956119085
+15.468448595346354
+15.147234269151436
+15.602128465709084
+16.331079119896074
+15.305760084781227
+15.252951157935943
+15.296968509824875
+15.986890238637702
+16.225562679098577
+15.803129741797179
+15.55780530629493
+16.218465977948487
+15.740207667540778
+15.939782017703475
+15.495654633024918
+16.64484373175234
+15.66321628745555
+16.256831473566958
+16.42785614896071
+15.555375373878233
+15.860502515659238
+16.79586882994967
+16.06103330586992
+15.032835228685974
+16.05316591378478
+16.423225518981507
+15.81210873101261
+16.28557938617065
+========================================
+[config] N=30 V=6
+[config] pretrain dir: /home2/eshaan.sharma/Reinforcement-Learning-Project/recovering_bandits_rmab/recovering_RMAB/neurwin_training_results/arms_30_activate_6
+[pretrain] training 30 arms (seed 87452) ...
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
+finished episode: 6
+finished episode: 7
+finished episode: 8
+finished episode: 9
+finished episode: 10
+performing batch gradient step
+finished episode: 11
+finished episode: 12
+finished episode: 13
+finished episode: 14
+finished episode: 15
+performing batch gradient step
+finished episode: 16
+finished episode: 17
+finished episode: 18
+finished episode: 19
+finished episode: 20
+performing batch gradient step
+finished episode: 21
+finished episode: 22
+finished episode: 23
+finished episode: 24
+finished episode: 25
+performing batch gradient step
+finished episode: 26
+finished episode: 27
+finished episode: 28
+finished episode: 29
+finished episode: 30
+performing batch gradient step
+finished episode: 31
+finished episode: 32
+finished episode: 33
+finished episode: 34
+finished episode: 35
+performing batch gradient step
+finished episode: 36
+finished episode: 37
+finished episode: 38
+finished episode: 39
+finished episode: 40
+performing batch gradient step
+[pretrain] done.
+[seed 1] -> /home2/eshaan.sharma/Reinforcement-Learning-Project/paper_out/recovering_N30_V6_neurwin_seed1.csv
+iteration 1
+19.30827912773896
+18.69729766611111
+18.484557725395472
+18.116259845553977
+18.06551240253152
+18.297588929622624
+18.949220014506263
+17.866149975641402
+17.565267636182696
+17.639332694582144
+18.513337268194338
+18.26985685317703
+18.031363813394083
+17.650291576936535
+17.885740146056786
+19.20387981205951
+19.41886961175915
+18.11352094250671
+19.32112657293385
+18.076230928160484
+17.074050391584272
+18.135878650345507
+17.775161299925923
+18.552734758492214
+18.77450553364021
+19.711542862708647
+18.583122613369284
+17.63269899330498
+18.12026241634602
+18.68480525488975
+18.44020992527195
+19.181032287010137
+17.88898106025022
+18.125707143036884
+18.111564587729045
+18.10763536654395
+17.97669126225345
+17.565064987607837
+18.584150250681873
+18.387919385799663
+18.184927903072193
+18.730179628181997
+18.09020908236272
+18.74597088888247
+18.956702258249152
+18.427951799103635
+17.83571282951307
+18.552819962695086
+18.84717818668232
+18.06928403917332
+18.83030593726181
+18.72388295615268
+18.35158035060751
+18.41368666204933
+18.363190708738422
+18.43530178621839
+19.034516598178886
+17.80138219886886
+18.49612604678396
+18.13386600708446
+18.487918173102244
+18.61656583473335
+19.19256750359446
+19.00052373824883
+19.051038759835677
+18.790070310880765
+18.911638926111028
+19.7820846595919
+18.698537494918586
+18.12884817868908
+19.056557451512692
+19.0387182871824
+18.75608928206196
+19.16374464880554
+19.412743226270514
+19.112797536078737
+19.50155062188222
+19.780950922709074
+19.0906340461323
+19.215067569028587
+18.578188125049397
+19.528021253344104
+20.144103240857483
+19.68518673003794
+19.88803162412161
+19.032405572190427
+19.320753312590586
+18.888520587437903
+18.940079241592727
+19.083518092931822
+19.197277069769008
+20.510996127293755
+19.726818841311346
+19.381754675051642
+19.207703680953287
+21.254637966334716
+19.5354732790945
+19.809507341114383
+19.866564609562385
+21.38736215021041
+18.949857767818827
+20.894357284032445
+20.107198823212443
+19.817496518525648
+18.74857751698076
+20.427947175264784
+19.57993791359347
+20.392885070242023
+20.18077202367635
+19.634933996788927
+[seed 2] -> /home2/eshaan.sharma/Reinforcement-Learning-Project/paper_out/recovering_N30_V6_neurwin_seed2.csv
+iteration 1
+17.656096373563265
+18.817704044263575
+17.803369269547815
+18.3652663631735
+17.163920524133633
+18.63514784767719
+17.222886343612057
+18.741774557645634
+18.297336868835124
+18.101824207461956
+18.130099233221348
+17.957146238327333
+18.935893954620518
+17.942471633132136
+17.90057956240381
+18.547127973865873
+18.03540200963008
+18.96197369526792
+18.361035662953714
+17.484018933582586
+17.796444230683885
+17.936960335529946
+18.12752609495534
+18.07322016956069
+17.853456192554574
+17.749251250329277
+18.82340716329475
+18.05696015133344
+18.41461416457578
+18.399799710795083
+17.56499763337716
+18.701294722278277
+18.596801302596383
+18.40362458484075
+19.72004732795244
+17.609193052072833
+17.73798303355596
+18.629541933558226
+18.224066100374984
+17.817701941765762
+19.21120095054374
+17.455574673960438
+18.8948717284393
+19.00125539351702
+18.967637779819018
+18.974398530642773
+17.91664486299734
+18.094984277245388
+18.659936350744857
+18.777403593077153
+19.414735498207687
+18.75451497145562
+18.548504225951245
+18.000800277318795
+17.815036789309808
+19.703575717556916
+18.47444071810654
+18.436404763794815
+18.2930406296287
+18.755354340362253
+19.14084081155688
+19.53515597415934
+18.915356451984035
+19.156451797708147
+18.52704410374738
+18.494224864112667
+18.86858120581107
+19.25688764870754
+18.51034991645623
+18.929253907346226
+18.870997424443477
+18.64430745355843
+18.436833270570762
+18.377181491274715
+18.815695221046656
+18.91235397490138
+18.734619354491507
+19.01451345424
+19.01803583515235
+18.871769201021294
+19.67353042368257
+20.015591976264215
+18.972628678231505
+18.04154254784298
+19.4601347635257
+19.36288458967047
+19.119276445390454
+19.54624253496969
+18.968518968153862
+20.554473144142662
+20.286562557101924
+18.348568779780077
+19.630867017329773
+19.06197420045784
+19.723414656028986
+19.464256925842125
+19.78311386594337
+19.40073881507599
+19.86690854277878
+20.170906643076044
+19.233118933448157
+19.57930168293542
+20.28237324418044
+19.51721460101654
+19.508972288059045
+19.34775269575945
+20.443265540567708
+19.6909871615231
+19.846299447335795
+19.856073641241252
+[seed 3] -> /home2/eshaan.sharma/Reinforcement-Learning-Project/paper_out/recovering_N30_V6_neurwin_seed3.csv
+iteration 1
+18.73213748849658
+17.939149838302246
+18.005351414203805
+18.17066615588825
+17.40407906427395
+18.227862304782025
+18.653164049483
+18.046227254828178
+18.195041236086894
+17.71769510841715
+17.80612819142598
+17.817005182201928
+17.20564960114034
+18.946844598137233
+18.455871044213865
+17.6461326625486
+17.830754221542023
+18.54469641081558
+17.567242922738828
+18.30970365684157
+18.11038826033323
+18.11718382840827
+18.18282156347686
+17.538002791007298
+18.509469153547844
+18.095497296324982
+17.779400351329382
+17.774552150717792
+17.198236171775505
+18.780945072485512
+18.82561297703434
+18.50069843657738
+18.557755032804465
+17.808724965500378
+18.638515441397878
+18.020562181865436
+18.96202506231508
+18.938657662588714
+18.084701275121496
+18.65357508387764
+18.101053574977637
+18.545987107239245
+18.71912437334419
+19.305202862938064
+17.727108954239895
+19.11439623064673
+18.043236998856198
+17.78110844341132
+18.339694905489893
+17.57462601809817
+18.927423698422732
+18.797588540655568
+18.21404872081335
+17.80917722724654
+18.209901220073178
+20.053376849206316
+18.25147305525274
+19.379898231863834
+17.302080582493822
+18.59614994793624
+18.679996145469115
+18.856031634140564
+18.858279452589226
+18.350331666062107
+19.30824481760261
+18.787261067129357
+19.649284121656777
+18.160824723059964
+19.202733588581474
+18.754911444135583
+18.815576151145766
+18.079742163435068
+19.563611124699353
+18.575527635646708
+18.33770052732448
+19.34735368825076
+18.1456113890905
+18.931552255032443
+19.29675516502465
+20.54299499266266
+19.746140022241235
+17.936825787132378
+19.000222613855215
+18.697298097985005
+18.975394260682247
+19.586905976269662
+19.066726066452425
+18.27576705120833
+18.76390332780967
+19.787778409370404
+19.01940898361086
+19.69422826205212
+19.00938120821365
+19.682950203134986
+19.97973130280084
+19.67140254448568
+19.527567222883917
+20.41938408086852
+19.420782386883072
+19.945453920182448
+20.196561695436955
+18.999416161915217
+19.708988880120327
+20.821246489959712
+19.584081699342985
+18.745365801567257
+19.82692231224488
+20.910735434069217
+20.000801286421858
+20.4621710368756
+task 1 done

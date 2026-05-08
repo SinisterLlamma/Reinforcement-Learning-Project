@@ -1,0 +1,17 @@
+==========================================
+SLURM_JOB_ID = 2619843
+SLURM_NODELIST = gnode091
+SLURM_JOB_GPUS = 
+==========================================
+Host:     gnode091
+Job:      2619843
+Cpus:     8
+Parallel: 4
+Out dir:  /home2/eshaan.sharma/Reinforcement-Learning-Project/paper_out
+Per-run logs: /home2/eshaan.sharma/Reinforcement-Learning-Project/paper_run_logs
+All 36 runs completed in 10137 s.
+Aggregate with:
+  /ssd_scratch/eshaan.sharma/conda_envs/rl-project/bin/python /home2/eshaan.sharma/Reinforcement-Learning-Project/plot_paper_configs.py
+---
+CSV inventory:
+36

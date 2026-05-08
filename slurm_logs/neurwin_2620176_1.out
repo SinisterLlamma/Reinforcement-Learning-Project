@@ -1,0 +1,20 @@
+==========================================
+SLURM_JOB_ID = 2620176
+SLURM_NODELIST = gnode090
+SLURM_JOB_GPUS = 
+==========================================
+Host:    gnode090
+Job:     2620176 (array task 1)
+Env:     recovering
+Steps:   12000 (warmup 1000)
+========================================
+[config] N=10 V=3
+[config] pretrain dir: /home2/eshaan.sharma/Reinforcement-Learning-Project/recovering_bandits_rmab/recovering_RMAB/neurwin_training_results/arms_10_activate_3
+[pretrain] training 10 arms (seed 87452) ...
+starting training
+finished episode: 1
+finished episode: 2
+finished episode: 3
+finished episode: 4
+finished episode: 5
+performing batch gradient step
